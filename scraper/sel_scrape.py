@@ -29,6 +29,7 @@ while True:
     last_height = new_height
 
 print('all the way at the bottom')
+time.sleep(5)
 html = driver.page_source
 time.sleep(2)
 file_to_write = open("page_source.html", "w")
